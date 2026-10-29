@@ -1,0 +1,9 @@
+{
+  "name": "mabot-whatsapp-cloud-bridge",
+  "version": "2.0.0",
+  "type": "module",
+  "main": "bridge.js",
+  "engines": { "node": ">=20" },
+  "scripts": { "start": "node bridge.js" },
+  "dependencies": { "@whiskeysockets/baileys": "^6.7.9", "pino": "^9.0.0" }
+}
